@@ -296,7 +296,7 @@
       const presentButton = document.querySelector("#presentButton");
       const status = document.querySelector("#status");
       const editableElements = [...document.querySelectorAll("[data-editable]")];
-      const originalContent = Object.fromEntries(editableElements.map((element) => [element.dataset.key, element.textContent]));
+      const originalContent = Object.fromEntries(editableElements.map((element) => [element.dataset.key, element.innerText]));
 
       const setStatus = (message) => {
         status.textContent = message;
@@ -305,7 +305,7 @@
       };
 
       const readContent = () => Object.fromEntries(
-        editableElements.map((element) => [element.dataset.key, element.textContent])
+        editableElements.map((element) => [element.dataset.key, element.innerText.replace(/\r\n?/g, "\n")])
       );
 
       const applyContent = (content) => {
