@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Genspark活用研修の参加者用30分演習と復習資料">
+  <title>Genspark活用研修｜参加者ハンドアウト</title>
+  <link rel="icon" href="data:,">
+  <style>
+    :root{--navy:#14243d;--blue:#456fae;--pale:#eef5fa;--line:#d7e1ee;--muted:#516276;--danger:#9b2c2c;--paper:#fff}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#edf2f7;color:var(--navy);font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",sans-serif;line-height:1.75}
+    header{background:var(--navy);color:#fff;padding:34px 20px}header div,main{max-width:900px;margin:auto}header p{margin:8px 0 0;color:#dbe7f3}h1{font-size:clamp(28px,5vw,44px);line-height:1.25;margin:0}h2{font-size:26px;margin:0 0 16px}h3{font-size:20px;margin:28px 0 10px}.eyebrow{font-size:13px;font-weight:800;letter-spacing:.12em;color:#9fc4e5;margin-bottom:8px}main{padding:24px 16px 60px}.card{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:26px;margin:18px 0;box-shadow:0 8px 24px rgba(20,36,61,.06)}.lead{font-size:19px;font-weight:700}.download{display:inline-flex;align-items:center;gap:8px;background:var(--blue);color:#fff;text-decoration:none;font-weight:800;border-radius:9px;padding:12px 18px;margin-top:10px}.alert{border-left:6px solid var(--danger);background:#fff7f7;padding:16px 18px;border-radius:8px}.timeline{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-top:18px}.step{background:var(--pale);padding:14px;border-radius:9px;min-height:108px}.step b{display:block;color:var(--blue);font-size:18px}.prompt{background:#111c2c;color:#fff;border-radius:10px;padding:20px;white-space:pre-wrap}.checklist{list-style:none;padding:0}.checklist li{margin:10px 0}.checklist label{display:flex;gap:10px;align-items:flex-start}.checklist input{width:20px;height:20px;margin-top:4px;flex:0 0 auto}table{width:100%;border-collapse:collapse;font-size:14px}th,td{border:1px solid var(--line);padding:10px;text-align:left;vertical-align:top}th{background:var(--pale)}.glossary{display:grid;grid-template-columns:1fr 2fr;gap:0}.glossary dt,.glossary dd{margin:0;padding:10px;border-bottom:1px solid var(--line)}.glossary dt{font-weight:800;color:var(--blue)}.write{height:44px;border-bottom:1px solid #8a99aa;margin:8px 0 16px}.muted{color:var(--muted)}nav{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}nav a{color:#fff}.print-note{font-size:13px;color:#dbe7f3}
+    @media(max-width:700px){.timeline{grid-template-columns:1fr 1fr}.step:last-child{grid-column:1/-1}.card{padding:20px}.glossary{grid-template-columns:1fr}.glossary dt{border-bottom:0;padding-bottom:0}table{display:block;overflow-x:auto}}
+    @media print{body{background:#fff;font-size:11pt}header{padding:18px 0;background:#fff;color:#000;border-bottom:2px solid #000}header p,.print-note,nav,.download{display:none}main{padding:0}.card{box-shadow:none;border:0;border-radius:0;margin:0;padding:16px 0;break-inside:avoid}.prompt{background:#fff;color:#000;border:1px solid #555}.timeline{grid-template-columns:repeat(5,1fr)}h2{font-size:18pt}.page-break{break-before:page}}
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <div class="eyebrow">PARTICIPANT HANDOUT</div>
+      <h1>Genspark活用研修</h1>
+      <p>30分演習＋研修後の復習を、この1ページにまとめています。</p>
+      <nav aria-label="ページ内メニュー"><a href="#exercise">演習</a><a href="#fallback">紙上演習</a><a href="#recap">復習</a><a href="#next">次の1件</a></nav>
+      <div class="print-note">印刷する場合は、ブラウザの印刷からA4・背景グラフィックなしで出力できます。</div>
+    </div>
+  </header>
+  <main>
+    <section class="card" id="exercise">
+      <h2>30分演習｜AI Sheetsで支出を照合する</h2>
+      <p class="lead">ゴールは「全部自動で決める」ことではありません。AIの判断理由・要確認・重複候補・総額を、人が確認できる状態にします。</p>
+      <a class="download" href="Genspark研修_飲食店週次支出照合デモ.xlsx" download>研修用Excelを開く</a>
+      <p class="muted">データはすべて研修用の架空データです。</p>
+      <div class="alert">
+        <strong>安全ルール</strong>
+        <ul>
+          <li>指定された研修用Excel以外は添付しない</li>
+          <li>Connectorを新規接続しない</li>
+          <li>公開リンク作成、メール送信、外部共有は行わない</li>
+          <li>誤って実データを開いた場合は、実行せず画面を止めて講師を呼ぶ</li>
+        </ul>
+      </div>
+      <div class="timeline" aria-label="30分の時間配分">
+        <div class="step"><b>0–5分</b>安全確認<br>Excel添付</div>
+        <div class="step"><b>5–17分</b>指示を実行<br>追加指示は1回</div>
+        <div class="step"><b>17–22分</b>合格条件で<br>自己確認</div>
+        <div class="step"><b>22–26分</b>判断基準と<br>要確認を共有</div>
+        <div class="step"><b>26–30分</b>質問<br>次の1件を記入</div>
+      </div>
+      <h3>そのまま使うプロンプト</h3>
+      <div class="prompt">部門別支出シートの表示順と判断基準に従い、請求書明細を分類・並べ替えてください。部門コード、部門名、判定理由、確信度、要確認を追加してください。判断材料が不足する行は推測で確定せず要確認とし、確認質問を作ってください。元の請求書IDと金額は変更しないでください。重複候補を検出し、処理前後の総額を照合してください。</div>
+      <h3>合格条件</h3>
+      <ul class="checklist">
+        <li><label><input type="checkbox">部門別支出シートの表示順になっている</label></li>
+        <li><label><input type="checkbox">各行に判定理由と確信度がある</label></li>
+        <li><label><input type="checkbox">INV-3112が要確認になり、確認質問がある</label></li>
+        <li><label><input type="checkbox">INV-3104-再送が重複候補として残っている</label></li>
+        <li><label><input type="checkbox">元の請求書IDと金額が変わっていない</label></li>
+        <li><label><input type="checkbox">処理前後の総額が858,640円で一致している</label></li>
+      </ul>
+      <h3>追加指示は、問題を1つに絞る</h3>
+      <div class="prompt">詳細不足の明細を推測で確定せず、要確認に戻してください。他の列と並び順は変更しないでください。</div>
+    </section>
+
+    <section class="card" id="fallback">
+      <h2>紙上演習｜AI Sheetsを開けない場合</h2>
+      <p>ライブ操作と同じ合格条件で、次の2行をどう止め、何を質問するか考えます。元データは13行、総額858,640円です。</p>
+      <table>
+        <thead><tr><th>種別</th><th>請求書ID</th><th>取引先・摘要</th><th>金額</th><th>考えること</th></tr></thead>
+        <tbody>
+          <tr><td>詳細不足</td><td>INV-3112</td><td>研修取引先L（詳細不明）<br>緊急対応一式</td><td>33,000円</td><td>何を質問すれば部門を確定できるか</td></tr>
+          <tr><td>再送候補</td><td>INV-3104-再送</td><td>トレーニングEC-D<br>消耗品一式（再送）</td><td>18,420円</td><td>元請求書の計上状況をどう確認するか</td></tr>
+        </tbody>
+      </table>
+      <h3>設計する4項目</h3>
+      <p>入力：何を渡すか</p><div class="write"></div>
+      <p>AIの処理：何を分類・作成させるか</p><div class="write"></div>
+      <p>人の確認：どこで止めるか</p><div class="write"></div>
+      <p>成果物：最後に何を残すか</p><div class="write"></div>
+    </section>
+
+    <section class="card page-break" id="recap">
+      <h2>復習｜覚えるのは「頼む→進める→確認する」</h2>
+      <ol>
+        <li><strong>頼む：</strong>目的、資料、完成形を渡す</li>
+        <li><strong>AIが進める：</strong>必要な機能を選び、調べる・分析する・作る</li>
+        <li><strong>人が確認して使う：</strong>事実、機密、権利、レイアウトを確認する</li>
+      </ol>
+      <h3>入口の使い分け</h3>
+      <ul>
+        <li>迷った時はSuper Agent。成果物が決まっていればAI Sheets / Slides / Docsへ直接入る</li>
+        <li>Skillは「何を、どの品質で作るか」を再利用する</li>
+        <li>Workflowは「どの順番・分岐・承認で進めるか」を再利用する</li>
+      </ul>
+      <h3>AIエージェントのミニ用語集</h3>
+      <dl class="glossary">
+        <dt>LLM</dt><dd>指示と状況を読み、次の行動を考える「頭」</dd>
+        <dt>Tools</dt><dd>検索、ファイル、表計算、APIなどへ働きかける「手」</dd>
+        <dt>Environment</dt><dd>Webや業務システムなど、処理を行う「作業場所」</dd>
+        <dt>Context / State / Memory</dt><dd>今回の指示、途中状態、後から参照する情報</dd>
+        <dt>Agent loop</dt><dd>計画→実行→観察→修正を繰り返す「見直し」</dd>
+        <dt>Harness / Permissions</dt><dd>道具、権限、回数、停止条件を制御する「ガード」</dd>
+        <dt>人の承認</dt><dd>送信、削除、公開などの前で止める最終判断</dd>
+      </dl>
+      <h3>使う前の5項目</h3>
+      <ul class="checklist">
+        <li><label><input type="checkbox">数字、日付、固有名詞、出典を元資料と照合した</label></li>
+        <li><label><input type="checkbox">個人情報、社外秘、他顧客情報が入っていない</label></li>
+        <li><label><input type="checkbox">画像や文章の利用条件を確認した</label></li>
+        <li><label><input type="checkbox">外部送信、削除、公開の前に人が承認する</label></li>
+        <li><label><input type="checkbox">相手が見る形式で文字切れ・重なりを確認した</label></li>
+      </ul>
+    </section>
+
+    <section class="card" id="next">
+      <h2>明日から試す1件</h2>
+      <p>まずは会話で小さく試し、良い品質基準をSkillへ、固まった手順をWorkflowへ残します。</p>
+      <p>業務名</p><div class="write"></div>
+      <p>入力</p><div class="write"></div>
+      <p>AIに任せる範囲</p><div class="write"></div>
+      <p>人が確認する場所</p><div class="write"></div>
+      <p>残したい成果物</p><div class="write"></div>
+      <p class="muted">料金、Credits、利用可能機能、画面名称、Connector、管理者設定は変わる可能性があります。実施日の公式情報と自社ルールを確認してください。</p>
+    </section>
+  </main>
+</body>
+</html>
