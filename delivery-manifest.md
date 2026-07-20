@@ -1,4 +1,6 @@
-# Genspark活用研修｜配布マニフェスト
+# Genspark基本研修｜配布マニフェスト
+
+全体は120分（基本理解60分・画面共有30分・参加者操作＋質問30分）です。参加者配布物は次の2ファイルだけに限定します。
 
 ## 受講者へ渡す
 
@@ -10,6 +12,7 @@
 ## 講師・運営だけが使う
 
 - `index.html`
+- `assets/`（表紙・AI Sheets・Skillsの参照画像）
 - `talk-script.md`
 - `instructor-guide.md`
 - `demo-guide.md`
