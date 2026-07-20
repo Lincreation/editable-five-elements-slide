@@ -8,8 +8,9 @@
 - [AI Slides](https://www.genspark.ai/helpcenter/ai-slides) — モード、Guide Mode、編集、Skills、出力
 - [AI Docs](https://www.genspark.ai/helpcenter/ai-docs) — Rich Text / Markdown、AI Edit、Manual Edit、Save Point、出力
 - [AI Sheets](https://www.genspark.ai/helpcenter/ai-sheets) — XLSX入出力、複数シート、分析、数式、可視化、非対応機能
-- [Skills](https://www.genspark.ai/helpcenter/skills) — Community / Team / My Own、作成、共有、利用
-- [Workflows](https://www.genspark.ai/helpcenter/workflows) — Schedule / Email Trigger、Test Run、Turn On、実行履歴、Pending Confirmation
+- [Skills](https://www.genspark.ai/helpcenter/skills) — 特定業務向けの再利用ツール、Community / Team / My Own、Create for myself、入力・出力・Tool権限、共有、更新・削除
+- [Workflows](https://www.genspark.ai/helpcenter/workflows) — 1 Workflow = 1 Trigger、Schedule / Email、Action、模擬データのTest Run、実動作のTurn On、Run History、Pending Confirmation
+- [Team & Enterprise Plans](https://www.genspark.ai/helpcenter/team-enterprise-plans) — Team運用、管理、権限・安全設定を確認する入口
 - [Custom Agent](https://www.genspark.ai/helpcenter/custom-super-agent) — 専用Agentの作成と呼び出し
 - [Genspark Code](https://www.genspark.ai/helpcenter/ai-developer) — 現在名称。旧AI Developer
 - [Genspark Design](https://www.genspark.ai/helpcenter/genspark-design) — デザイン制作機能
@@ -32,6 +33,12 @@
 - 日本語UIのボタン名と位置
 - Genspark Design / AI Designer / AI Image系の当日表示名
 - モデル名、上限、価格、クレジット倍率
-- Drive、MCP、Connector、Team Skills、Workflowの権限
+- Drive、MCP、Connector、Team Skills、Workflowの権限・管理者承認フロー
 
 これらは当日直前にAPHDアカウントの実画面で確認します。
+
+## 公式仕様と研修ルールの区別
+
+- `Trigger / Action / Test Run / Turn On / Run History / Pending Confirmation`はGenspark公式画面で確認する要素。
+- `Skill Card / Workflow Card / Test Record / Hard Stop / Owner / Version / 手動復旧`は、安全に企業利用するための研修設計。Gensparkの固定ノード名ではない。
+- 受講者・Owner・管理者の操作分担は本研修の運用ルール。契約プランや実際の管理権限は当日画面で確認する。

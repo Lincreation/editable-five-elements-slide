@@ -9,9 +9,9 @@
   <style>
     :root{--navy:#14243d;--blue:#456fae;--pale:#eef5fa;--line:#d7e1ee;--muted:#516276;--danger:#9b2c2c;--paper:#fff}
     *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#edf2f7;color:var(--navy);font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",sans-serif;line-height:1.75}
-    header{background:var(--navy);color:#fff;padding:34px 20px}header div,main{max-width:900px;margin:auto}header p{margin:8px 0 0;color:#dbe7f3}h1{font-size:clamp(28px,5vw,44px);line-height:1.25;margin:0}h2{font-size:26px;margin:0 0 16px}h3{font-size:20px;margin:28px 0 10px}.eyebrow{font-size:13px;font-weight:800;letter-spacing:.12em;color:#9fc4e5;margin-bottom:8px}main{padding:24px 16px 60px}.card{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:26px;margin:18px 0;box-shadow:0 8px 24px rgba(20,36,61,.06)}.lead{font-size:19px;font-weight:700}.download{display:inline-flex;align-items:center;gap:8px;background:var(--blue);color:#fff;text-decoration:none;font-weight:800;border-radius:9px;padding:12px 18px;margin-top:10px}.alert{border-left:6px solid var(--danger);background:#fff7f7;padding:16px 18px;border-radius:8px}.timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:18px}.step{background:var(--pale);padding:14px;border-radius:9px;min-height:108px}.step b{display:block;color:var(--blue);font-size:18px}.prompt{background:#111c2c;color:#fff;border-radius:10px;padding:20px;white-space:pre-wrap}.checklist{list-style:none;padding:0}.checklist li{margin:10px 0}.checklist label{display:flex;gap:10px;align-items:flex-start}.checklist input{width:20px;height:20px;margin-top:4px;flex:0 0 auto}table{width:100%;border-collapse:collapse;font-size:14px}th,td{border:1px solid var(--line);padding:10px;text-align:left;vertical-align:top}th{background:var(--pale)}.glossary{display:grid;grid-template-columns:1fr 2fr;gap:0}.glossary dt,.glossary dd{margin:0;padding:10px;border-bottom:1px solid var(--line)}.glossary dt{font-weight:800;color:var(--blue)}.write{height:44px;border-bottom:1px solid #8a99aa;margin:8px 0 16px}.muted{color:var(--muted)}nav{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}nav a{color:#fff}.print-note{font-size:13px;color:#dbe7f3}
-    @media(max-width:700px){.timeline{grid-template-columns:1fr 1fr}.card{padding:20px}.glossary{grid-template-columns:1fr}.glossary dt{border-bottom:0;padding-bottom:0}table{display:block;overflow-x:auto}}
-    @media print{body{background:#fff;font-size:10.5pt;orphans:3;widows:3}header{padding:14px 0;background:#fff;color:#000;border-bottom:2px solid #000}header p,.print-note,nav,.download{display:none}main{padding:0}.card{box-shadow:none;border:0;border-radius:0;margin:0;padding:12px 0;break-inside:auto}.prompt{background:#fff;color:#000;border:1px solid #555;break-inside:avoid}.timeline{grid-template-columns:repeat(4,1fr);break-inside:avoid}.alert,table,.glossary,.write{break-inside:avoid}h2{font-size:18pt}h2,h3{break-after:avoid}.checklist li{break-inside:avoid}.page-break{break-before:page}}
+    header{background:var(--navy);color:#fff;padding:34px 20px}header div,main{max-width:900px;margin:auto}header p{margin:8px 0 0;color:#dbe7f3}h1{font-size:clamp(28px,5vw,44px);line-height:1.25;margin:0}h2{font-size:26px;margin:0 0 16px}h3{font-size:20px;margin:28px 0 10px}.eyebrow{font-size:13px;font-weight:800;letter-spacing:.12em;color:#9fc4e5;margin-bottom:8px}main{padding:24px 16px 60px}.card{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:26px;margin:18px 0;box-shadow:0 8px 24px rgba(20,36,61,.06)}.lead{font-size:19px;font-weight:700}.download{display:inline-flex;align-items:center;gap:8px;background:var(--blue);color:#fff;text-decoration:none;font-weight:800;border-radius:9px;padding:12px 18px;margin-top:10px}.alert{border-left:6px solid var(--danger);background:#fff7f7;padding:16px 18px;border-radius:8px}.timeline{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:18px}.step{background:var(--pale);padding:14px;border-radius:9px;min-height:94px}.step b{display:block;color:var(--blue);font-size:18px}.prompt{background:#111c2c;color:#fff;border-radius:10px;padding:20px;white-space:pre-wrap}.checklist{list-style:none;padding:0}.checklist li{margin:10px 0}.checklist label{display:flex;gap:10px;align-items:flex-start}.checklist input{width:20px;height:20px;margin-top:4px;flex:0 0 auto}table{width:100%;border-collapse:collapse;font-size:14px}th,td{border:1px solid var(--line);padding:10px;text-align:left;vertical-align:top}th{background:var(--pale)}.glossary{display:grid;grid-template-columns:1fr 2fr;gap:0}.glossary dt,.glossary dd{margin:0;padding:10px;border-bottom:1px solid var(--line)}.glossary dt{font-weight:800;color:var(--blue)}.write{height:44px;border-bottom:1px solid #8a99aa;margin:8px 0 16px}.blank{display:block;min-height:30px;border-bottom:1px solid #8a99aa}.muted{color:var(--muted)}nav{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}nav a{color:#fff}.print-note{font-size:13px;color:#dbe7f3}
+    @media(max-width:700px){html,body{width:100%;max-width:100%;overflow-x:hidden}header,header div,main,.card,.timeline,.step,.alert,.prompt,.checklist,.test-record{width:100%;max-width:100%;min-width:0}main{margin:0}.timeline{grid-template-columns:repeat(2,minmax(0,1fr))}.card{padding:20px}h1,h2,h3,p,li,.lead,.step,.download,.prompt{min-width:0;max-width:100%;overflow-wrap:anywhere;word-break:break-word}.download{display:flex;width:100%;white-space:normal}.glossary{grid-template-columns:minmax(0,1fr)}.glossary dt{border-bottom:0;padding-bottom:0}table{display:block;width:100%;max-width:100%;overflow-x:auto}}
+    @media print{body{background:#fff;font-size:10.5pt;orphans:3;widows:3}header{padding:14px 0;background:#fff;color:#000;border-bottom:2px solid #000}header p,.print-note,nav,.download{display:none}main{padding:0}.card{box-shadow:none;border:0;border-radius:0;margin:0;padding:12px 0;break-inside:auto}.prompt{background:#fff;color:#000;border:1px solid #555;break-inside:avoid}.timeline{grid-template-columns:repeat(3,1fr);break-inside:avoid}.alert,table,.glossary,.write,.checklist,.test-record{break-inside:avoid}h2{font-size:18pt}h2,h3{break-after:avoid}.checklist li{break-inside:avoid}.page-break{break-before:page}}
   </style>
 </head>
 <body>
@@ -26,9 +26,10 @@
   </header>
   <main>
     <section class="card" id="exercise">
-      <h2>30分演習｜AI Sheetsで支出を照合する</h2>
-      <p class="lead">ゴールは「全部自動で決める」ことではありません。AIの判断理由・要確認・重複候補・総額を、人が確認できる状態にします。</p>
+      <h2>30分演習｜一件を再現できる設計にする</h2>
+      <p class="lead">完成物はSkill Card・Workflow Card・Test Recordです。画面機能を使えなくても、同じ3成果物を完成させれば合格です。</p>
       <a class="download" href="Genspark研修_飲食店週次支出照合デモ.xlsx" download>研修用Excelを開く</a>
+      <a class="download" href="Genspark研修_Workflowテスト証拠.xlsx" download>3ケースのテスト証拠を開く</a>
       <p class="muted">データはすべて研修用の架空データです。</p>
       <div class="alert">
         <strong>安全ルール</strong>
@@ -40,10 +41,12 @@
         </ul>
       </div>
       <div class="timeline" aria-label="30分の時間配分">
-        <div class="step"><b>0–5分</b>安全確認<br>Excel添付</div>
-        <div class="step"><b>5–17分</b>指示を実行<br>追加指示は1回</div>
-        <div class="step"><b>17–25分</b>照合・修正<br>出力・再確認</div>
-        <div class="step"><b>25–30分</b>質問＋<br>次の1件を記入</div>
+        <div class="step"><b>0–4分</b>入力・正本<br>合格値を確認</div>
+        <div class="step"><b>4–9分</b>Sheets／完成例<br>件数・総額・例外</div>
+        <div class="step"><b>9–16分</b>Skill Card<br>3つの空欄を記入</div>
+        <div class="step"><b>16–23分</b>Workflow Card<br>3つの空欄を記入</div>
+        <div class="step"><b>23–27分</b>Test Record<br>3ケースの証拠確認</div>
+        <div class="step"><b>27–30分</b>ペアレビュー<br>質問・次の一件</div>
       </div>
       <h3>そのまま使うプロンプト</h3>
       <div class="prompt">部門別支出シートの表示順と判断基準に従い、請求書明細を分類・並べ替えてください。部門コード、部門名、判定理由、確信度、要確認を追加してください。判断材料が不足する行は推測で確定せず要確認とし、確認質問を作ってください。元の請求書IDと金額は変更しないでください。重複候補を検出し、処理前後の総額を照合してください。</div>
@@ -55,15 +58,50 @@
         <li><label><input type="checkbox">INV-3104-再送が重複候補として残っている</label></li>
         <li><label><input type="checkbox">元の請求書IDと金額が変わっていない</label></li>
         <li><label><input type="checkbox">13件、入力858,640円、出力858,640円、差額0円で一致している</label></li>
-        <li><label><input type="checkbox">XLSXで出力し、開き直して件数・総額・例外2件を再確認した</label></li>
+        <li><label><input type="checkbox">元データまたは完成例と比較し、件数・総額・例外2件を再確認した</label></li>
       </ul>
-      <h3>追加指示は、問題を1つに絞る</h3>
-      <div class="prompt">詳細不足の明細を推測で確定せず、要確認に戻してください。他の列と並び順は変更しないでください。</div>
+      <h3>Skill Card｜作り方の契約</h3>
+      <table>
+        <tbody>
+          <tr><th>目的</th><td>週次支出を安全に分類する</td><th>Owner / Version</th><td><span class="blank"></span></td></tr>
+          <tr><th>許可入力・入力契約</th><td colspan="3"><span class="blank"></span></td></tr>
+          <tr><th>正本・参照</th><td colspan="3">配布Excelの部門別支出／請求書明細</td></tr>
+          <tr><th>判断手順</th><td colspan="3">分類→理由→確信度→要確認→総額照合</td></tr>
+          <tr><th>出力形式</th><td colspan="3">分類結果・例外・確認質問・総額照合</td></tr>
+          <tr><th>合格条件</th><td colspan="3"><span class="blank"></span></td></tr>
+          <tr><th>NG・例外</th><td colspan="3">推測確定／ID・金額変更／必須列欠落</td></tr>
+        </tbody>
+      </table>
+      <h3>Workflow Card｜実行順と停止の契約</h3>
+      <table>
+        <tbody>
+          <tr><th>Trigger</th><td>毎週月曜9時</td><th>Owner / 最小権限</th><td><span class="blank"></span></td></tr>
+          <tr><th>読取・コピー</th><td colspan="3">正本を直接更新せず、研修用コピーを読む</td></tr>
+          <tr><th>Action / Skill</th><td colspan="3">分類→理由→例外→総額照合</td></tr>
+          <tr><th>分岐・停止・承認</th><td colspan="3"><span class="blank"></span></td></tr>
+          <tr><th>保存先</th><td colspan="3">承認前は研修用フォルダへレビュー用保存</td></tr>
+          <tr><th>履歴・通知</th><td colspan="3">Test Recordを残し、確認者へ知らせる</td></tr>
+          <tr><th>手動復旧</th><td colspan="3"><span class="blank"></span></td></tr>
+        </tbody>
+      </table>
+      <div class="test-record">
+        <h3>Test Record｜正常・例外・Hard Stop</h3>
+        <p>配布した「3ケースのテスト証拠」を開き、期待結果と模擬実行結果を照合します。これはGenspark Run Historyの実ログではなく、停止設計を表上で試すテーブルテストです。</p>
+        <table>
+          <thead><tr><th>ケース</th><th>期待結果</th><th>実結果・証拠</th><th>判定</th></tr></thead>
+          <tbody>
+            <tr><td>正常系：3件・600,000円・例外0件</td><td>レビュー用保存まで進む</td><td>差額0円・例外0件・必須列OK</td><td><label><input type="checkbox">Pass</label></td></tr>
+            <tr><td>例外系：3件・600,000円・例外2件</td><td>Pending Confirmationで止まる</td><td>差額0円・例外2件・必須列OK</td><td><label><input type="checkbox">Pass</label></td></tr>
+            <tr><td>Hard Stop：出力599,000円・必須ID欠落</td><td>保存せず停止する</td><td>差額1,000円・必須ID欠落</td><td><label><input type="checkbox">Pass</label></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p><strong>本番化可否：</strong>不可（研修中）　<strong>改善点：</strong>＿＿＿＿＿＿＿＿＿＿＿＿＿＿</p>
     </section>
 
     <section class="card" id="fallback">
-      <h2>紙上演習｜AI Sheetsを開けない場合</h2>
-      <p>ライブ操作と同じ合格条件で、次の2行をどう止め、何を質問するか考えます。元データは13行、総額858,640円です。</p>
+      <h2>紙上演習｜Gensparkを開けない場合</h2>
+      <p>上の3成果物を紙上で完成させます。次の2行をどう扱い、どこで止め、誰に確認するかをカードへ反映してください。元データは13行、総額858,640円です。</p>
       <table>
         <thead><tr><th>種別</th><th>請求書ID</th><th>取引先・摘要</th><th>金額</th><th>考えること</th></tr></thead>
         <tbody>
@@ -71,11 +109,13 @@
           <tr><td>再送候補</td><td>INV-3104-再送</td><td>トレーニングEC-D<br>消耗品一式（再送）</td><td>18,420円</td><td>元請求書の計上状況をどう確認するか</td></tr>
         </tbody>
       </table>
-      <h3>設計する4項目</h3>
-      <p>入力：何を渡すか</p><div class="write"></div>
-      <p>AIの処理：何を分類・作成させるか</p><div class="write"></div>
-      <p>人の確認：どこで止めるか</p><div class="write"></div>
-      <p>成果物：最後に何を残すか</p><div class="write"></div>
+      <h3>紙上でも同じ修了条件</h3>
+      <ul class="checklist">
+        <li><label><input type="checkbox">Skill Cardに入力契約・合格条件・例外・Owner・Versionがある</label></li>
+        <li><label><input type="checkbox">Workflow Cardに停止・承認・履歴・手動復旧・最小権限がある</label></li>
+        <li><label><input type="checkbox">正常系・例外系・Hard Stopの期待結果が異なる</label></li>
+        <li><label><input type="checkbox">Team公開・Connector・Turn Onを行わないと判断できる</label></li>
+      </ul>
     </section>
 
     <section class="card page-break" id="recap">
@@ -96,8 +136,9 @@
       <ul>
         <li>資料はAI Slides、文書はAI Docs、表はAI Sheets、ビジュアルは画像生成</li>
         <li>迷った時はSuper Agent。成果物が決まっていれば専門機能へ直接入る</li>
-        <li>Skillは「何を、どの品質で作るか」を再利用する</li>
-        <li>Workflowは手順を再利用する。分岐・承認などは研修用の設計チェックで、実際のノード名・可否は画面と契約で確認する</li>
+        <li>Skillは入力・判断・出力・品質を再利用する。OwnerとVersionまで決める</li>
+        <li>WorkflowはTrigger・Action・停止・履歴を再利用する。研修はTest RunまででTurn Onしない</li>
+        <li>Team公開・共有・Connector・本番有効化はOwner／管理者が判断する</li>
       </ul>
       <h3>AIエージェントのミニ用語集</h3>
       <dl class="glossary">
@@ -120,13 +161,13 @@
     </section>
 
     <section class="card" id="next">
-      <h2>明日から試す1件</h2>
-      <p>まずは会話で小さく試し、良い品質基準をSkillへ、固まった手順をWorkflowへ残します。</p>
+      <h2>明日Skill候補にする1件</h2>
+      <p>単発で成功させ、Skill Cardにし、正常・例外を試してから、限定したWorkflowへ進めます。</p>
       <p>業務名</p><div class="write"></div>
-      <p>入力</p><div class="write"></div>
-      <p>AIに任せる範囲</p><div class="write"></div>
-      <p>人が確認する場所</p><div class="write"></div>
-      <p>残したい成果物</p><div class="write"></div>
+      <p>許可入力・正本</p><div class="write"></div>
+      <p>合格条件・停止条件</p><div class="write"></div>
+      <p>Owner・承認者</p><div class="write"></div>
+      <p>レビュー用保存先・手動復旧</p><div class="write"></div>
       <p class="muted">料金、Credits、利用可能機能、画面名称、Connector、管理者設定は変わる可能性があります。実施日の公式情報と自社ルールを確認してください。</p>
     </section>
   </main>
